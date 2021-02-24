@@ -1,0 +1,151 @@
+/* Source: Evan Baldonado / https://github.com/stanford-aanw/drupal/ */
+
+/* Basic CSS */
+* {
+  color: #444444;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background-color: #fefefe;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+p.larger-font {
+  font-size: 1.25em;
+}
+
+p.left-aligned-text {
+  text-align: left;
+}
+
+/* Team CSS */
+.team-profile-list {
+  max-width: 960px;
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.team-profile {
+  box-sizing: border-box;
+  margin-bottom:1.5em;
+  margin-top:1.5em;
+  display: inline-block;
+}
+
+.team-profile-name {
+  color: #8a1413;
+}
+
+.team-profile-description {
+  line-height: 1.5em;
+}
+
+.team-profile-image {
+  float: left;
+  object-fit: cover;
+  margin: 1.5em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-profile-location, .team-profile-location > i {
+  color: #444444;
+  margin-top: -1em;
+  margin-bottom:0.5em;
+}
+
+/* Project Spotlight CSS */
+.project-list {
+  max-width: 960px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.project {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  min-width: 300px;
+  width: 300px;
+  max-width: calc(100% / 3);
+  padding: 1em;
+  vertical-align: top;
+}
+
+.project-image {
+  object-fit: cover;
+  width: 100%;
+  min-height: 15em;
+  max-height: 20em;
+}
+
+.project-title {
+  display: inline-block;
+  margin-top: 1em;
+  font-weight: bold;
+  color: #8a1413;
+}
+
+/* Full width CSS (includes footer and header) */
+.full-width {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  padding: 1em;
+  text-align: center;
+}
+
+.grey-background {
+  background-color: #f1f1f1;
+}
+
+.wide-width {
+  width: 100%;
+  max-width: 80em;
+  display: inline-block;
+}
+
+.medium-width {
+  width: 100%;
+  max-width: 60em;
+  display: inline-block;
+}
+
+/* CTA CSS */
+.cta {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cta-button {
+    background-color: lightgreen;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: lightgreen;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 3px 0px;
+    font-size: 2em;
+    color: #333333;
+}
+
+.cta-button:hover {
+  filter: grayscale(0.3);
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 3px 0px;
+}

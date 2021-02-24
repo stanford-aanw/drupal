@@ -1,0 +1,7 @@
+/* Source: Evan Baldonado / https://github.com/stanford-aanw/drupal/ */
+
+/* Set the site title color to red. */
+div#site-name a {
+    color: #8a1413;
+    font-weight: normal !important;
+}

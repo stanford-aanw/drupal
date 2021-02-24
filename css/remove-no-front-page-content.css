@@ -1,0 +1,6 @@
+/* Source: Evan Baldonado / https://github.com/stanford-aanw/drupal/ */
+
+/* Remove "No front page content has been created yet." */
+#first-time {
+    display: none;
+}
