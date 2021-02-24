@@ -1,2 +1,2 @@
-# drupal-blocks
-Drupal blocks for waste.sites.stanford.edu
+# Drupal
+CSS, Drupal blocks, and image assets for waste.stanford.edu
